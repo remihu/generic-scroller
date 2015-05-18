@@ -10,24 +10,26 @@
 		<h1>Logo</h1>
 	</header>
 
-	<nav>
-		<a href="#" id="small-logo">Logo</a>
+	<nav data-start="position: relative;" data-top="position: fixed; top: 0; z-index: 1; width: 100%">
+		<a href="#" id="small-logo" data-0="position: absolute; top: 100%;" data-100="top: 20%">Logo</a>
 		<div id="nav-wrap">
 				<a href="#one">One</a>
 				<a href="#two">Two</a>
 		</div>
 	</nav>
 
+	<div id="spacer" data-0="display: none" data-100="display: block"></div>
+
 	<section id="one">
 		<h2>One</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nobis deleniti hic est mollitia pariatur voluptatibus aut quos fuga modi quisquam eum, esse velit nulla delectus, consequatur tempore voluptates facere.</p>
 	</section><!-- One -->
-
+	
 	<section id="two">
-		<h2>Two</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit facere provident obcaecati id modi animi rem, quam fugit, incidunt totam numquam perspiciatis esse ipsum voluptate blanditiis deserunt, laudantium omnis! Tempore!</p>
+		<h2 data-start="opacity: 0;" data-top="opacity: 1;">Two</h2>
+		<p data-start="opacity: 0;" data-top="opacity: 1;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit facere provident obcaecati id modi animi rem, quam fugit, incidunt totam numquam perspiciatis esse ipsum voluptate blanditiis deserunt, laudantium omnis! Tempore!</p>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quo similique officiis hic reiciendis, vero adipisci minima fugit expedita sint harum maxime laudantium ab perspiciatis, temporibus eveniet. Illo temporibus, ad.</p>
+		<p data-start="opacity: 0;" data-top="opacity: 1;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quo similique officiis hic reiciendis, vero adipisci minima fugit expedita sint harum maxime laudantium ab perspiciatis, temporibus eveniet. Illo temporibus, ad.</p>
 
 	</section><!-- Two -->
 	
